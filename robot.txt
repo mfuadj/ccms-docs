@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mfuadj.github.io/ccms-docs/sitemap.xml
