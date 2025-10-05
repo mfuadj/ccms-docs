@@ -32,6 +32,7 @@ just_the_docs:
     docs:
       name: Documentation
       nav_exclude: false
+version_label: "v1"
 
 # Markdown and plugins supported by GitHub Pages
 markdown: kramdown
