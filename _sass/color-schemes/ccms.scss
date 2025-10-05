@@ -1,0 +1,17 @@
+// Example CCMS scheme: tweak background, text, links, sidebar, buttons
+
+$body-background-color: #f8fafc;
+$body-text-color: #0f172a;
+$link-color: #0ea5e9;               // links
+$link-color-hover: darken($link-color, 10%);
+
+$sidebar-color: #0b1220;            // left sidebar bg
+$sidebar-text-color: #e5e7eb;
+$sidebar-active-color: #22d3ee;     // active item accent
+$nav-child-link-color: #cbd5e1;
+
+$btn-primary-color: #0ea5e9;        // primary button
+$btn-primary-color-hover: darken($btn-primary-color, 8%);
+
+$code-background-color: #eef2ff;    // code blocks
+$search-result-preview-color: #475569;
