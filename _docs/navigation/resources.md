@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Resources
+parent: Navigation
 nav_order: 2
 ---
 
