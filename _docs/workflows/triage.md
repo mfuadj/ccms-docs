@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Triage
+parent: Workflows
 nav_order: 1
 ---
 
