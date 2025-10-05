@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images/uploads"
+public_folder: "/ccms-docs/assets/images/uploads"
+
+site_url: "https://mfuadj.github.io/ccms-docs"
+display_url: "https://mfuadj.github.io/ccms-docs"
+
+collections:
+  - name: "docs"
+    label: "Documentation"
+    label_singular: "Page"
+    folder: "_docs"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    preview_path: "docs/{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Section (parent)", name: "parent", widget: "select", options: ["Navigation","Introduction","Clinical Workflows","Reference"] }
+      - { label: "Nav Order", name: "nav_order", widget: "number", value_type: "int", min: 0, max: 999, default: 10 }
+      - { label: "Has Children", name: "has_children", widget: "boolean", default: false, required: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
