@@ -1,6 +1,8 @@
 ---
+layout: default
 title: Quick Links
 nav_order: 1
+parent: Navigation
 ---
 
 - CCMS Login (add link)
