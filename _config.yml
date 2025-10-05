@@ -1,0 +1,41 @@
+title: CCMS Hub
+description: Clinical Care Management System Documentation
+# Project site: set your baseurl to the repo name
+baseurl: "/ccms-docs"
+url: "https://mfuadj.github.io"
+
+# Use Just the Docs as a remote theme (works with GitHub Pages)
+remote_theme: just-the-docs/just-the-docs
+
+# Just the Docs options
+logo: # add later (path under /assets/images/logo.png)
+color_scheme: light
+search_enabled: true
+enable_copy_code_button: true
+
+# Aux links (header)
+aux_links:
+  "CCMS Hub on GitHub":
+    - "https://github.com/mfuadj/ccms-docs"
+
+# Footer
+footer_content: "© 2025 CCMS Hub"
+
+# Navigation structure (hierarchical via collections)
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+      nav_exclude: false
+
+# Markdown and plugins supported by GitHub Pages
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
