@@ -7,7 +7,7 @@ remote_theme: just-the-docs/just-the-docs
 
 # Branding
 # logo: /assets/images/logo.png
-color_scheme: ccms
+color_scheme: light
 search_enabled: true
 enable_copy_code_button: true
 footer_content: "© 2025 CCMS Hub"
