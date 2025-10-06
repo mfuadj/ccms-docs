@@ -1,12 +1,13 @@
 ---
 layout: default
-title: Introduction & Implementation of SystmOne
+title: Implementation of SystmOne
 parent: Introduction
 nav_order: 1
 ---
 
 # CHAPTER 1: SystmOne Implementation Documentation  `Ver 1.0`{: .label }
 {: .no_toc }
+`Created by: DR. MUHAMMAD FUAD BIN JAAFAR (PKDMUAR)`{: .label} `Last Update: 15 May 2025 22:58`{: .label .label-purple }
 
 <details open markdown="block">
   <summary>
@@ -17,11 +18,10 @@ nav_order: 1
 {:toc}
 </details>
 
-KK Bandar Maharani CCMS Documentation & Protocol
+---
 
-Created by: DR. MUHAMMAD FUAD BIN JAAFAR (PKDMUAR), Last Update: 15 May 2025 22:58
-
-This chapter outlines the full implementation journey of SystmOne (CCMS) at Klinik Kesihatan Bandar Maharani, including planning, system rollout, staff engagement and custom configuration done to suit clinic workflows.
+{: .note }
+This chapter outlines the full implementation journey of SystmOne (CCMS) at Klinik Kesihatan Bandar Maharani, including planning, system rollout, staff engagement and custom configuration done to suit clinic workflows.
 
 
 ## Section 1.0 Introduction to SystmOne
