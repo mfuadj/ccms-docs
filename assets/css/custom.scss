@@ -1,3 +1,6 @@
+// Import the default theme
+@import "just-the-docs";
+
 // Override font family for the entire site
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
@@ -25,7 +28,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif !important;
 }
 
-// Customize code blocks (optional - you might want to keep monospace)
-// .highlight, code, pre {
-//   font-family: 'Inter', monospace !important;
-// }
+// Customize sidebar navigation
+.site-nav {
+  font-family: 'Inter', sans-serif !important;
+}
+
+// Customize search box
+.search-input {
+  font-family: 'Inter', sans-serif !important;
+}
+
+// Customize footer
+.site-footer {
+  font-family: 'Inter', sans-serif !important;
+}
