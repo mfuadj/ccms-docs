@@ -5,7 +5,7 @@ url: "https://mfuadj.github.io"
 
 remote_theme: just-the-docs/just-the-docs
 
-# Add Google Fonts Inter
+# Add Google Fonts Inter - Alternative approach
 head:
   - link:
       rel: preconnect
@@ -15,8 +15,13 @@ head:
       href: https://fonts.gstatic.com
       crossorigin: true
   - link:
-      href: https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+      href: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap
       rel: stylesheet
+
+# Add custom CSS
+sass:
+  sass_dir: assets/css
+  style: compressed
 
 # Branding
 # logo: /assets/images/logo.png
