@@ -1,7 +1,8 @@
 ---
 layout: default
-reference: Introduction
-Parent: 
+title: Introduction & Implementation of SystmOn
+parent: Introduction
+nav_order: 3
 ---
 
 # CHAPTER 1: SYSTMONE IMPLEMENTATION DOCUMENTATION  Ver 1.0
